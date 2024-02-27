@@ -1,0 +1,28 @@
+'''
+문제 설명:
+길이가 같은 두 문자열 str1과 str2가 주어집니다.
+두 문자열의 각 문자가 앞에서부터 서로 번갈아가면서 한 번씩 등장하는 문자열을 만들어 return 하는 solution 함수를 완성해 주세요.
+
+제한사항 :
+1 ≤ str1의 길이 = str2의 길이 ≤ 10
+str1과 str2는 알파벳 소문자로 이루어진 문자열입니다.
+
+입출력 예 : 
+str1 = "aaaaa"	
+str2 = "bbbbb"
+result = "ababababab"
+'''
+
+# def solution(str1, str2):
+#     answer = ''
+#     return answer
+
+def solution(str1, str2):
+    str1 = str1.lower()
+    str2 = str2.lower()
+    answer = ''
+    if len(str1) == len(str2):
+        if 1 <= len(str1) <= 10:
+            for i in range(0,len(str1)):
+                answer = answer+str1[i] +str2[i]
+    return answer
