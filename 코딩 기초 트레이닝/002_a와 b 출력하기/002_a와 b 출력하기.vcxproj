@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9d2cba89-e829-4b43-bd6e-0469ff54224e}</ProjectGuid>
-    <RootNamespace>My001문자열출력하기</RootNamespace>
+    <ProjectGuid>{88afd9cf-3bb7-4de1-a085-e7f6675199ac}</ProjectGuid>
+    <RootNamespace>My002a와b출력하기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="001_문자열_출력하기.cpp" />
+    <ClCompile Include="002_a와 b 출력하기.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
